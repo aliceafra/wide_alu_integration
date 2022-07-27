@@ -1,0 +1,12 @@
+package:
+  name: wide_alu 
+
+dependencies: 
+  register_interface:     { git: "https://github.com/pulp-platform/register_interface.git", version: 0.3.1 }
+
+sources: 
+  - wide_alu.sv
+  - wide_alu_pkg.sv
+  - wide_alu_top.sv
+  - rtl/wide_alu_reg_top.sv
+  - rtl/wide_alu_reg_pkg.sv

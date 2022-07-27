@@ -37,9 +37,9 @@ module wide_alu
      input logic [DEACCEL_COUNTER_WIDTH-1:0]  deaccel_factor_i,
      output logic [DEACCEL_COUNTER_WIDTH-1:0] deaccel_factor_o,
      input logic                              op_sel_we_i,
-     input                                    optype_e op_sel_i,
-     output                                   optype_e op_sel_o,
-     output                                   status_e status_o
+     input optype_e                           op_sel_i,
+     output optype_e                          op_sel_o,
+     output status_e                          status_o
      );
 
     status_e state_d, state_q;
